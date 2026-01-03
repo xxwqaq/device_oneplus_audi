@@ -11,9 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/audi/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_audi
+PRODUCT_NAME := infinity_audi
 PRODUCT_DEVICE := audi
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -26,3 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=PJF110 \
     SystemDevice=OP5CFBL1 \
     SystemName=PJF110
+
+# 签名密钥配置
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/infinity-priv/keys/releasekey
+PRODUCT_OTACERT := vendor/infinity-priv/keys/releasekey
