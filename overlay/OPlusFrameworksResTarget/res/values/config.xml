@@ -10,158 +10,59 @@
     <bool name="config_automatic_brightness_available">true</bool>
 
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>5000</item>
-        <item>1500</item>
-        <item>750</item>
-        <item>600</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
+        <item>200</item>
     </integer-array>
-
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>1</item>
-        <item>50</item>
-        <item>450</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
+        <item>400</item>
     </integer-array>
 
-    <integer-array name="config_ambientThresholdLevels">
-        <item>50</item>
-        <item>150</item>
-        <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>4000</item>
-    </integer-array>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">200</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">500</integer>
+    <integer name="config_autoBrightnessInitialLightDebounce">0</integer>
+
+    <integer name="config_brightness_ramp_rate_fast">600</integer>
+    <integer name="config_brightness_ramp_rate_slow">200</integer>
+    <bool name="config_skipScreenOnBrightnessRamp">true</bool>
 
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>6</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>40</item>
-        <item>50</item>
-        <item>60</item>
-        <item>70</item>
-        <item>80</item>
-        <item>90</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>300</item>
-        <item>400</item>
-        <item>500</item>
-        <item>600</item>
-        <item>700</item>
-        <item>800</item>
-        <item>900</item>
-        <item>1000</item>
-        <item>1200</item>
-        <item>1400</item>
-        <item>1600</item>
-        <item>1700</item>
-        <item>1800</item>
-        <item>1900</item>
-        <item>2000</item>
-        <item>4000</item>
-        <item>7000</item>
-        <item>10000</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>40000</item>
+        <item>1</item><item>6</item><item>10</item><item>20</item><item>30</item>
+        <item>40</item><item>50</item><item>60</item><item>70</item><item>80</item>
+        <item>90</item><item>100</item><item>150</item><item>200</item><item>300</item>
+        <item>400</item><item>500</item><item>600</item><item>700</item><item>800</item>
+        <item>900</item><item>1000</item><item>1200</item><item>1400</item><item>1600</item>
+        <item>1700</item><item>1800</item><item>1900</item><item>2000</item><item>4000</item>
+        <item>7000</item><item>10000</item><item>15000</item><item>30000</item><item>40000</item>
     </integer-array>
 
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0</item>
-        <item>6.0</item>
-        <item>12.0</item>
-        <item>30.0</item>
-        <item>100.0</item>
-        <item>140.0</item>
-        <item>160.0</item>
-        <item>180.0</item>
-        <item>200.0</item>
-        <item>230.0</item>
-        <item>240.0</item>
-        <item>250.0</item>
-        <item>260.0</item>
-        <item>270.0</item>
-        <item>280.0</item>
-        <item>290.0</item>
-        <item>300.0</item>
-        <item>310.0</item>
-        <item>320.0</item>
-        <item>330.0</item>
-        <item>340.0</item>
-        <item>360.0</item>
-        <item>380.0</item>
-        <item>420.0</item>
-        <item>460.0</item>
-        <item>500.0</item>
-        <item>540.0</item>
-        <item>580.0</item>
-        <item>600.0</item>
-        <item>660.0</item>
-        <item>680.0</item>
-        <item>700.0</item>
-        <item>720.0</item>
-        <item>740.0</item>
-        <item>760.0</item>
+        <item>2.0</item><item>6.0</item><item>12.0</item><item>30.0</item><item>100.0</item>
+        <item>140.0</item><item>160.0</item><item>180.0</item><item>200.0</item><item>230.0</item>
+        <item>240.0</item><item>250.0</item><item>260.0</item><item>270.0</item><item>280.0</item>
+        <item>290.0</item><item>300.0</item><item>310.0</item><item>320.0</item><item>330.0</item>
+        <item>340.0</item><item>360.0</item><item>380.0</item><item>420.0</item><item>460.0</item>
+        <item>500.0</item><item>540.0</item><item>580.0</item><item>600.0</item><item>660.0</item>
+        <item>680.0</item><item>700.0</item><item>720.0</item><item>740.0</item><item>760.0</item>
         <item>782.4</item>
     </array>
 
     <array name="config_screenBrightnessNits">
-        <item>0.0</item>
-        <item>4.45</item>
-        <item>6.87</item>
-        <item>11.65</item>
-        <item>18.51</item>
-        <item>27.52</item>
-        <item>38.33</item>
-        <item>64.26</item>
-        <item>99.85</item>
-        <item>132.66</item>
-        <item>203.92</item>
-        <item>300.78</item>
-        <item>422.91</item>
-        <item>515.93</item>
-        <item>621.26</item>
-        <item>701.31</item>
+        <item>0.0</item><item>4.45</item><item>6.87</item><item>11.65</item>
+        <item>18.51</item><item>27.52</item><item>38.33</item><item>64.26</item>
+        <item>99.85</item><item>132.66</item><item>203.92</item><item>300.78</item>
+        <item>422.91</item><item>515.93</item><item>621.26</item><item>701.31</item>
         <item>782.42</item>
     </array>
 
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
-        <item>160</item>
-        <item>321</item>
-        <item>481</item>
-        <item>642</item>
-        <item>803</item>
-        <item>963</item>
-        <item>1284</item>
-        <item>1606</item>
-        <item>1927</item>
-        <item>2409</item>
-        <item>2890</item>
-        <item>3372</item>
-        <item>3693</item>
-        <item>4175</item>
-        <item>6103</item>
-        <item>8191</item>
+        <item>0</item><item>160</item><item>321</item><item>481</item><item>642</item>
+        <item>803</item><item>963</item><item>1284</item><item>1606</item><item>1927</item>
+        <item>2409</item><item>2890</item><item>3372</item><item>3693</item><item>4175</item>
+        <item>6103</item><item>8191</item>
     </integer-array>
 
     <integer name="config_screenBrightnessSettingMaximum">8191</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
     <item type="dimen" name="config_hdrBrightnessDaylightLimit">782.42</item>
-
-    <integer name="config_brightness_ramp_rate_fast">400</integer>
-    <integer name="config_brightness_ramp_rate_slow">50</integer>
-    <bool name="config_skipScreenOnBrightnessRamp">true</bool>
 
     <item type="dimen" name="config_screenBrightnessDozeFloat">0.003663</item>
     <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.458823</item>
